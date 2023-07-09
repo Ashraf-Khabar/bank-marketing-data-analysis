@@ -1,4 +1,4 @@
-`# Bank Marketing Data Analysis
+# Bank Marketing Data Analysis
 
 This project is focused on analyzing bank marketing data using PyTorch, pandas, numpy, and scikit-learn. The goal is to build a predictive model that can help identify potential customers who are more likely to subscribe to a bank's term deposit.
 
