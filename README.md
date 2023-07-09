@@ -52,7 +52,7 @@ Dataset link : [Kaggle link](https://www.kaggle.com/datasets/janiobachmann/bank-
 The project structure is organized as follows:
 
 - `data/`: Contains the bank marketing dataset (`bank.csv`).
-- `models/`: Contains the PyTorch model implementation (`model.ipynb`, `TF.py`, `NN.py`).
+- `models/`: Contains the PyTorch model implementation (`model.ipynb`,   `TF.py`,    `NN.py`).
 
 ## Results
 
