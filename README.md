@@ -25,15 +25,11 @@ To run this project locally, follow these steps:
 
 git clone <https://github.com/Ashraf-Khabar/bank-marketing-data-analysis>
 
-mathematicaCopy code
-
 2. Install the required dependencies. Ensure you have Python 3 installed. Run the following command in your terminal:
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
-markdownCopy code
-
- ## Usage
+## Usage
 
 1. Navigate to the project directory:
 
