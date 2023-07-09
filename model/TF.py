@@ -8,29 +8,31 @@ import numpy as np
 
 def train_network(model, optimizer, loss_function, num_epochs, batch_size, X_train, Y_train, lambda_L1 = 0.0) :
     loss_across_epochs = []
-    for epoch in range(num_epochs) :
-        train_loss = 0.0
-        # Starting the model training
+    for epoch in range(num_epochs):
+        train_loss= 0.0
+        #Explicitly start model training
         model.train()
-        for i in range(0, X_train.shape[0], batch_size) :
-            # Extract train batch from X and Y : 
-            input_data = X_train[i:min(X_train.shape[0], i+batch_size)]
+        for i in range(0,X_train.shape[0],batch_size):
+            #Extract train batch from X and Y
+            input_data = X_train[i:min(X_train.
+            shape[0],i+batch_size)]
             labels = Y_train[i:min(X_train.shape[0],i+batch_size)]
-            # set the gradients to zero before starting to do backpropragation
+            #set the gradients to zero before starting to do backpropragation
             optimizer.zero_grad()
-            # Forward pass
+            #Forward pass
             output_data = model(input_data)
-            # Caculate loss
+            #Caculate loss
             loss = loss_function(output_data, labels)
             L1_loss = 0
-            # Compute L1 penalty to be added with loss
+            #Compute L1 penalty to be added with loss
             for p in model.parameters():
                 L1_loss = L1_loss + p.abs().sum()
-            # Add L1 penalty to loss
+
+            #Add L1 penalty to loss
             loss = loss + lambda_L1 * L1_loss
-            # Backpropogate
+            #Backpropogate
             loss.backward()
-            # Update weights
+            #Update weights
             optimizer.step()
             train_loss += loss.item() * input_data.size(0)
         loss_across_epochs.append(train_loss/X_train.size(0))
