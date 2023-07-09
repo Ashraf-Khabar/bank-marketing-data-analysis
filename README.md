@@ -21,13 +21,13 @@ The main objective of this project is to perform data analysis on a bank marketi
 
 To run this project locally, follow these steps:
 
-1. Clone the repository:`
+1. Clone the repository:
 
-git clone <https://github.com/your-username/bank-marketing-data-analysis.git>
+git clone <https://github.com/Ashraf-Khabar/bank-marketing-data-analysis>
 
 mathematicaCopy code
 
- `2. Install the required dependencies. Ensure you have Python 3.x installed. Run the following command in your terminal:`
+2. Install the required dependencies. Ensure you have Python 3 installed. Run the following command in your terminal:
 
 pip install -r requirements.txt
 
@@ -35,13 +35,13 @@ markdownCopy code
 
  ## Usage
 
-`1. Navigate to the project directory:`
+1. Navigate to the project directory:
 
 cd bank-marketing-data-analysis
 
 cssCopy code
 
- `2. Run the main analysis script:`
+ 2. Run the main analysis script:
 
 python main.py
 
@@ -58,9 +58,7 @@ The bank marketing dataset used in this project is available in the `data` direc
 The project structure is organized as follows:
 
 - `data/`: Contains the bank marketing dataset (`bank.csv`).
-- `models/`: Contains the PyTorch model implementation (`model.py`).
-- `utils/`: Contains utility functions for data preprocessing, feature engineering, and evaluation.
-- `main.py`: The main script that executes the data analysis pipeline.
+- `models/`: Contains the PyTorch model implementation (`model.ipynb`, `TF.py`, `NN.py`).
 
 ## Results
 
