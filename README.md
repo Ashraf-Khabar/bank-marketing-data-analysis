@@ -33,9 +33,9 @@ pip install -r requirements.txt
 
 markdownCopy code
 
- `## Usage
+ ## Usage
 
-1. Navigate to the project directory:`
+`1. Navigate to the project directory:`
 
 cd bank-marketing-data-analysis
 
@@ -47,7 +47,7 @@ python main.py
 
 markdownCopy code
 
- `This will execute the data analysis pipeline, including data preprocessing, feature engineering, model training, and evaluation.
+ `This will execute the data analysis pipeline, including data preprocessing, feature engineering, model training, and evaluation.`
 
 ## Dataset
 
