@@ -23,31 +23,29 @@ To run this project locally, follow these steps:
 
 1. Clone the repository:
 
-git clone <https://github.com/Ashraf-Khabar/bank-marketing-data-analysis>
+    `git clone <https://github.com/Ashraf-Khabar/bank-marketing-data-analysis>`
 
 2. Install the required dependencies. Ensure you have Python 3 installed. Run the following command in your terminal:
 
-`pip install -r requirements.txt`
+    `pip install -r requirements.txt`
 
 ## Usage
 
 1. Navigate to the project directory:
 
-cd bank-marketing-data-analysis
-
-cssCopy code
+    `cd bank-marketing-data-analysis`
 
  2. Run the main analysis script:
 
-python main.py
+    `python main.py`
 
-markdownCopy code
-
- `This will execute the data analysis pipeline, including data preprocessing, feature engineering, model training, and evaluation.`
+    This will execute the data analysis pipeline, including data preprocessing, feature engineering, model training, and evaluation.
 
 ## Dataset
 
 The bank marketing dataset used in this project is available in the `data` directory. It contains information about various features such as age, job, marital status, education, etc., of individuals who were contacted for a marketing campaign. The target variable is whether the individual subscribed to a term deposit or not.
+
+Dataset link : [Kaggle link](https://www.kaggle.com/datasets/janiobachmann/bank-marketing-dataset?resource=download)
 
 ## Project Structure
 
