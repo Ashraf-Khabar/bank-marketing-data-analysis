@@ -36,7 +36,7 @@ def train_network(model, optimizer, loss_function, num_epochs, batch_size, X_tra
             optimizer.step()
             train_loss += loss.item() * input_data.size(0)
         loss_across_epochs.append(train_loss/X_train.size(0))
-        if epoch%500 == 0:
+        if epoch%100 == 0:
             print("Epoch: {} - Loss:{:.4f}".format(epoch, train_loss/X_train.size(0)))
     return(loss_across_epochs)
 
